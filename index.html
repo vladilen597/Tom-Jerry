@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom & Jerry</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jerry and Cheese</h1>
+    </header>
+    <section class="btn">
+        <button id="btn1">1 player</button>
+        <button id="btn2">2 players</button>
+    </section>
+
+    
+
+    <div id="diff" class="box hide">
+        <h3 id="choose">Choose difficulty</h3>
+    <audio id="song" src='./sound/music.mp3'></audio>
+    <section id="displayBtn">
+        <button class="btnDiff" id="easy">Easy</button>
+    </section>
+    <section id="displayBtn">
+        <button class="btnDiff" id="normal">Normal</button>
+    </section>
+    <section id="displayBtn">
+        <button class="btnDiff" id="hard">Hard</button>
+    </section>
+    </div>
+      
+
+    <section id="game-place">
+        <canvas id="canvas1" height="600px" width="800px"></canvas>
+    </section>
+
+    <script src="./js/tom.js"></script>
+    <script src="./js/jerry.js"></script>
+    <script src="./js/cheese.js"></script>
+    <script src="./js/mechanism.js"></script>
+    <script src="./js/cousin.js"></script>
+</body>
+</html>
